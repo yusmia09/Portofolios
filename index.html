@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="dish/output.css">
+</head>
+<body>
+    <!-- Header Start -->
+     <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                    <a href="#home" class="font-bold text-lg text-primary block py-6">yusmia-sani</a>
+                </div>
+
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button" 
+                    class="block absolute right-4 lg:hidden">
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                    </button>
+
+                    <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[-250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none ">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#home" class="text-base text-dark py-2 mx-2 group-hover:text-primary flex">
+                                    Beranda
+                                </a>
+                            </li>
+
+                            <li class="group">
+                                <a href="#about" class="text-base text-dark py-2 mx-2 group-hover:text-primary flex">
+                                    Tentang Saya
+                                </a>
+                            </li>
+
+                            <li class="group">
+                                <a href="#portofolio" class="text-base text-dark py-2 mx-2 group-hover:text-primary flex">
+                                    Portofolio
+                                </a>
+                            </li>
+
+                            <li class="group">
+                                <a href="#contact" class="text-base text-dark py-2 mx-2 group-hover:text-primary flex">
+                                    Contact
+                                </a>
+                            </li>
+
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+     </header>
+     <!-- Header End -->
+
+    <!-- Hero Section Start -->
+     <section id="home" class="pt-28 lg:pt-32">
+        <div class="container">
+            <div class="flex flex-wrap">
+
+                <!-- Kiri -->
+                <div class="w-full self-center px-4 lg:w-1/2">
+                    <h1 class="text-base font-semibold text-primary md:text-xl ">
+                        Hai👋, Saya 
+                        <span class="block font-bold text-dark text-4xl mt-1 lg:text-5xl">
+                            Yusmia
+                        </span>
+                    </h1>
+
+                    <h2 class="font-medium text-secondary text-lg mb-5 lg:text-2xl">Mahasiswa Informatika</h2>
+                    <p class="font-medium text-secondary mb-10 leading-relaxed">
+                        Saya sedang mempelajari 
+                        <span class="text-dark font-bold">web development</span> 
+                        , serta membangun website yang 
+                        <span class="text-dark font-bold">rapi dan responsif</span>.
+                    </p>
+
+                    <a href="#" class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 duration-300 ease-in-out"> 
+                        Hubungi Saya
+                    </a> 
+                </div>
+
+                <!-- Kanan -->
+                 <div class="w-full self-end px-4 lg:w-1/2">
+                    <div class=" relative mt-10 lg:mt-9 lg:right-0 ">
+                        <img src="./dish/img/Foto.png" alt="Yusmia" 
+                        class="relative z-10 mx-auto max-w-full">
+                        <span class="absolute -bottom-0 left-1/2 -translate-x-1/2 md:scale-125">
+                            <svg width="300" height="240" viewBox="0 0 200 200" 
+                            xmlns="http://www.w3.org/2000/svg"> 
+                                <path fill="#34d399" 
+                                d="M55,-56.9C69.7,-40.3,78.9,-20.1,76.6,-2.3C74.3,15.6,60.6,31.2,45.9,44.1C31.2,57.1,15.6,67.4,-1.5,68.9C-18.6,70.4,-37.2,63,-49,50.1C-60.9,37.2,-66,18.6,-67.4,-1.4C-68.9,-21.4,-66.6,-42.9,-54.7,-59.5C-42.9,-76.1,-21.4,-87.8,-0.6,-87.2C20.1,-86.5,40.3,-73.5,55,-56.9Z" 
+                                transform="translate(100 100) scale(1.1)" /> </svg>
+                        </span>
+                    </div>
+                 </div>
+            </div>
+        </div>
+     </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section Start -->
+     <section id="about" class="pt-36 pb-32" >
+        <div class="container">
+            <div class="flex flex-wrap">
+
+                <!-- Kiri -->
+                 <div class="w-full px-4 mb-10 lg:w-1/2">
+                    <h4 class="font-bold uppercase text-primary text-lg mb-3">Tentang Saya</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-3 max-w-md lg:text-4xl">Web Developer</h2>
+                    <p class="font-medium text-base text-secondary max-w-xl lg:text-lg">
+                        Saya tertarik membangun aplikasi web yang rapi dan responsif menggunakan Laravel, Tailwind CSS, React dan Express. 
+                        Saat ini sedang mencari kesempatan magang untuk menambah pengalaman di dunia industri.
+                    </p>
+                 </div>
+
+                 <!-- Kanan -->
+                 <div class="w-full px-4 lg:w-1/2">
+                    <h3 class="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10">Mari Terhubung</h3>
+                    <p class="font-medium text-base text-secondary max-w-xl mb-6 lg:text-lg ">
+                        Yuk terhubung dan berbagi seputar dunia web development
+                    </p>
+
+                    <!-- Sosmed -->
+                     <div class="flex items-center">
+                        <!-- Instagram -->
+                         <a href="https://instagram.com/ysmsani_" 
+                         target="_blank" 
+                         class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white ">
+                            <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <title>
+                                Instagram
+                            </title>
+                            <path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 
+                                1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/>
+                            </svg>
+                         </a>
+
+                          <!-- LinkedIn -->
+                         <a href="https://linkedin.com/in/yusmia-sani" 
+                         target="_blank" 
+                         class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white ">
+                            <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <title>LinkedIn</title>
+                            <path 
+                            d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                            />
+                        </svg>
+                         </a>
+
+                         <!-- Email -->
+                         <a href="mailto:saniyusmia@gmail.com" 
+                         target="_blank" 
+                         class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white ">
+                            <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <title>Gmail</title>
+                                <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/>
+                             </svg>
+                         </a>
+
+                     </div>
+                 </div>
+            </div>
+        </div>
+     </section>
+    <!-- About Section End -->
+
+    <!-- Portofolio Section Start -->
+     <section id="portofolio" class="pt-36 pb-16 bg-slate-100">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2 uppercase">Portofolio</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-4">Portofolio Saya</h2>
+                    <p class="font-medium text-md text-secondary">
+                        Kumpulan proyek yang saya kembangkan untuk mengasah kemampuan di bidang 
+                        web development, meliputi pembuatan website responsif, sistem berbasis database,
+                        dan implementasi UI/UX sederhana.
+                    </p>
+                </div>
+            </div>
+
+            <div class="w-full px-4 flex flex-wrap justify-center">
+                <!-- Projek 1 -->
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow md overflow-hidden">
+                        <img src="dish/img/PortoFoto/Desmuk.png" alt="Desain Antarmuka" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+                        MyLib - Desain Antarmuka Apk Perpustakaan Online
+                    </h3>
+                    <p class="font-md text-base text-secondary">
+                        Desain UI/UX aplikasi perpustakaan digital yang memudahkan pengguna mencari dan membaca e-book, jurnal, dan rangkuman materi melalui tampilan mobile yang sederhana dan rapi.
+                    </p>
+                </div>
+
+                <!-- Projek 2 -->
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow md overflow-hidden">
+                        <img src="dish/img/PortoFoto/PiungBakery.png" alt="Desain Antarmuka" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+                        Piung Bakery - Website E-Commerce Toko Roti
+                    </h3>
+                    <p class="font-md text-base text-secondary">
+                        Website e-commerce toko roti yang dikembangkan secara berkelompok menggunakan Laravel. 
+                        Saya berperan dalam pengembangan dashboard admin, khususnya fitur CRUD data produk roti 
+                        (tambah, edit, hapus, dan kelola stok) agar pengelolaan produk menjadi lebih mudah dan terstruktur.
+                    </p>
+                </div>
+
+                <!-- Projek 3 -->
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow md overflow-hidden">
+                        <img src="dish/img/PortoFoto/ToDoList.png" alt="Desain Antarmuka" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+                        To-Do List Mobile App
+                    </h3>
+                    <p class="font-md text-base text-secondary">
+                        Pengembangan aplikasi mobile to-do list menggunakan React Native dengan fitur 
+                        tambah dan hapus tugas secara interaktif. Fokus pada desain antarmuka yang sederhana agar mudah digunakan.
+                    </p>
+                </div>
+
+                <!-- Projek 4 -->
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow md overflow-hidden">
+                        <img src="dish/img/PortoFoto/Inverta.png" alt="Desain Antarmuka" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+                        Inverta - Aplikasi Inventaris Surat
+                    </h3>
+                    <p class="font-md text-base text-secondary">
+                        Pengembangan antarmuka aplikasi mobile untuk manajemen inventaris surat masuk dan keluar. 
+                        Fokus pada perancangan tampilan dashboard, daftar aktivitas surat, serta form input data surat 
+                        dengan desain yang sederhana dan mudah digunakan.
+                    </p>
+                </div>
+
+                <!-- Projek 5 -->
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow md overflow-hidden">
+                        <img src="dish/img/PortoFoto/blome.png" alt="Desain Antarmuka" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+                        Bloomé - Website Penyedia Informasi Skincare
+                    </h3>
+                    <p class="font-md text-base text-secondary">
+                        Berkontribusi dalam pengembangan backend menggunakan Laravel dengan membangun RESTful API 
+                        dan fitur CRUD pada dashboard admin untuk mengelola data produk skincare. API yang dibuat 
+                        digunakan oleh tim frontend untuk menampilkan dan memproses data pada website.
+                </div>
+
+                <!-- Projek 6 -->
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow md overflow-hidden">
+                        <img src="dish/img/PortoFoto/MoneyMate.png" alt="Desain Antarmuka" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+                        MoneyMate - Aplikasi Pencatat Keuangan Mobile
+                    <p class="font-md text-base text-secondary">
+                        Mengembangkan aplikasi pencatat keuangan berbasis mobile menggunakan React Native dengan dukungan RESTful API berbasis Express.js. 
+                        Berkontribusi pada pengembangan frontend dan backend, termasuk fitur pencatatan pemasukan, pengeluaran, serta pengelolaan transaksi pengguna.
+                    </p>
+                </div>
+
+                <!-- Projek 7 -->
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow md overflow-hidden">
+                        <img src="dish/img/PortoFoto/MediKlikUser.png" alt="Desain Antarmuka" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+                        MediKlik - Toko Obat Online
+                    </h3>
+                    <p class="font-md text-base text-secondary">
+                        Pengembangan aplikasi e-commerce apotek online secara fullstack menggunakan React JS (frontend) 
+                        dan Express (backend), dilengkapi fitur checkout dan pengiriman invoice pembelian otomatis via email.
+                    </p>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- Portofolio Section End -->
+
+    <section id="contact" class="pt-24 pb-24 dark:bg-slate-800">
+  <div class="container">
+    <div class="w-full px-4">
+      <div class="mx-auto mb-12 max-w-xl text-center">
+        <h4 class="mb-2 text-lg font-semibold text-primary">Contact</h4>
+        <h2 class="mb-4 text-3xl font-bold text-dark dark:text-white">
+          Hubungi Saya
+        </h2>
+        <p class="text-base font-medium text-secondary">
+          Tertarik bekerja sama atau ingin berdiskusi? Kirim pesan melalui form berikut.
+        </p>
+      </div>
+    </div>
+
+    <form>
+      <div class="w-full lg:mx-auto lg:w-2/3">
+        <div class="mb-6 w-full px-4">
+          <label for="name" class="text-base font-bold text-primary">Nama</label>
+          <input type="text" id="name"
+            class="w-full rounded-md bg-slate-200 p-3 text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary" />
+        </div>
+
+        <div class="mb-6 w-full px-4">
+          <label for="email" class="text-base font-bold text-primary">Email</label>
+          <input type="email" id="email"
+            class="w-full rounded-md bg-slate-200 p-3 text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary" />
+        </div>
+
+        <div class="mb-6 w-full px-4">
+          <label for="message" class="text-base font-bold text-primary">Pesan</label>
+          <textarea id="message"
+            class="h-28 w-full rounded-md bg-slate-200 p-3 text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"></textarea>
+        </div>
+
+        <div class="w-full px-4">
+          <button
+            class="w-full rounded-full bg-primary py-3 px-8 text-base font-semibold text-white transition duration-500 hover:opacity-80 hover:shadow-lg">
+            Kirim Pesan
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- Footer Start -->
+<footer class="bg-slate-900 pt-16 pb-8">
+  <div class="container">
+    <div class="text-center">
+
+      <h2 class="text-2xl font-bold text-white mb-3">
+        Yusmia Sani
+      </h2>
+
+      <p class="text-sm text-slate-400 mb-6">
+        Pengembang web yang fokus membangun aplikasi modern dengan tampilan yang bersih dan fungsional.
+      </p>
+
+      <div class="space-y-2 text-sm text-slate-300">
+        <p>
+          Email :
+          <a href="mailto:saniyusmia@gmail.com" class="text-primary hover:underline">
+            saniyusmia@gmail.com
+          </a>
+        </p>
+
+        <p>
+          WhatsApp :
+          <a href="https://wa.me/628777564566" target="_blank" class="text-primary hover:underline">
+            08777564566
+          </a>
+        </p>
+
+        <p>
+          LinkedIn :
+          <a href="https://linkedin.com/in/sani-yusmia" target="_blank" class="text-primary hover:underline">
+            sani-yusmia
+          </a>
+        </p>
+
+        <p>
+          GitHub :
+          <a href="https://github.com/yusmia09" target="_blank" class="text-primary hover:underline">
+            yusmia09
+          </a>
+        </p>
+      </div>
+
+      <div class="mt-10 border-t border-slate-700 pt-6">
+        <p class="text-xs text-slate-500">
+          © 2026 Yusmia Sani. All rights reserved.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</footer>
+<!-- Footer End -->
+
+ <!-- Back to top Start -->
+    <a href="#home" class="fixed bottom-4 right-4 z-[9999] hidden h-14 w-14 items-center justify-center rounded-full bg-primary p-4 hover:animate-pulse" id="to-top">
+      <span class="mt-2 block h-5 w-5 rotate-45 border-t-2 border-l-2"></span>
+    </a>
+    <!-- Back to top End -->
+
+
+    <script src="dish/js/script.js"></script>
+</body>
+</html>
