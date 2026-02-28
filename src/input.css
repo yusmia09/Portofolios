@@ -28,3 +28,31 @@ body {
   @apply -rotate-45;
 }
 
+@keyframes float {
+  0%,100% { transform: translateY(0px); }
+  50% { transform: translateY(-15px); }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes blob {
+  0%,100% { transform: translate(-50%,0) scale(1); }
+  50% { transform: translate(-50%,0) scale(1.08); }
+}
+
+.animate-blob {
+  animation: blob 6s ease-in-out infinite;
+}
+
+#typing-skill::after {
+  content: "|";
+  animation: blink 1s infinite;
+  margin-left: 5px;
+}
+
+@keyframes blink {
+  0%,100% { opacity: 1; }
+  50% { opacity: 0; }
+}
